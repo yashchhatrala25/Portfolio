@@ -1,0 +1,11 @@
+button {
+  box-shadow: -3px -3px 7px var(--white), 3px 3px 5px var(--whitesmoke);
+  padding: 10px 40px;
+  border: none;
+}
+
+button:hover {
+  box-shadow: inset -3px -3px 7px var(--white), inset 3px 3px 5px var(--whitesmoke);
+  cursor: pointer;
+  color: var(--primary);
+}

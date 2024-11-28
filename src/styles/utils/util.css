@@ -1,0 +1,77 @@
+.box-container {
+  box-shadow: -3px -3px 7px var(--white), 3px 3px 5px var(--whitesmoke);
+}
+
+/* Heading  */
+.heading {
+  color: var(--primary);
+  margin-top: 29px;
+  margin-bottom: 25px;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+/* Justify Content Center */
+.justify-center {
+  justify-content: center;
+}
+
+/* Align Items Center */
+.items-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+/* Width full */
+.w-full {
+  width: 100%;
+}
+
+/* Width Screen */
+.w-screen {
+  width: 100vw;
+}
+
+/* Height full */
+.h-full {
+  height: 100%;
+}
+
+/* Height Screen */
+.h-screen {
+  height: 100vh;
+}
+
+/* Margin Top */
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* Margin Bottom */
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+/* Font Weight Bold */
+.bold {
+  font-weight: bold;
+}
+
+/* Font Size */
+.font-10 {
+  font-size: 10px;
+}
+
+.black {
+  color: black;
+}

@@ -1,0 +1,37 @@
+.right-side {
+  overflow-y: scroll;
+}
+
+
+/* right side navbar demo */
+.right-side .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side .right-nav {
+  position: fixed;
+  width: 71%;
+  z-index: 9999;
+  padding: 15px;
+
+  background-color: var(--ghostwhite);
+  box-shadow: -3px -3px 7px var(--white), 3px 3px 5px var(--whitesmoke);
+}
+
+.right-side .right-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-nav ul li {
+  list-style: none;
+}
+
+.right-nav ul li a{
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  color: var(--primary);
+}

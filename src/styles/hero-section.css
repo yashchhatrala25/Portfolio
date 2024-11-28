@@ -1,0 +1,56 @@
+.home-container {
+  margin-top: 8%;
+  margin-left: 15%;
+  width: 50vw;
+  height: 70vh;
+  position: relative;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.home-des {
+  padding: 20px;
+}
+
+.home-container .home-name {
+  color: #262626;
+}
+
+.home-des span {
+  color: var(--primary);
+}
+
+.home-pera {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons a i {
+  margin-left: 20%;
+  width: 100%;
+  height: 50px;
+}
+
+.social-icons a.insta i {
+  color: #e1306c;
+}
+
+.social-icons a.yt i {
+  color: var(--red);
+}
+
+.social-icons a.email i {
+  color: var(--red);
+}
+
+.social-icons a.github i {
+  color: var(--black);
+}
+
+.social-icons a.phone i {
+  color: var(--primary);
+}
