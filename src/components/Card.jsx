@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 const Card = (props) => {
-  console.log('props', props);
   const { id, title, description, btnText, url } = props
   return (
     <div className="container flex justify-center items-center">

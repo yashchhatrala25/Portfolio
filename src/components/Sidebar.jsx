@@ -40,12 +40,12 @@ const Sidebar = () => {
             </i>
           </Link>
           <Link
-            to="https://github.com/yash2500"
+            to="https://github.com/yashchhatrala25"
             target="_blank"
             className="github"
           >
             <i className="fa-brands fa-github">
-              <span className="font-10 black ml-5"> github.com/yash2500</span>
+              <span className="font-10 black ml-5"> github.com/yashchhatrala25</span>
             </i>
           </Link>
         </div>

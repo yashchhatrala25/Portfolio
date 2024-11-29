@@ -1,12 +1,12 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import "./styles/index.css";
-import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Navbar from './components/Navbar';
+import Error404 from "./pages/Error404";
 
 function App() {
   return (
@@ -21,8 +21,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/*" element={<Error404 />} />
           </Routes>
         </div>
       </div>

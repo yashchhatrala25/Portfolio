@@ -31,7 +31,7 @@ const experience = [
   {
     id: 3,
     companyName: "Sky9 pvt. ltd.",
-    years: "6 months present",
+    years: "11 months present",
     desc: "Here Write Description",
   },
 ];

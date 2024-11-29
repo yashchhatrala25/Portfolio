@@ -5,45 +5,24 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Todo List",
-      description: "Reactjs, HTML, CSS, Javascript",
+      title: "DSA",
+      description: "C++, DataStructure",
       btnText: "GitHub",
-      url: "https://github.com/yash2500/Reactjs-Projects/tree/master/Quiz-App",
+      url: "https://github.com/yashchhatrala25/DSA_A_to_Z",
     },
     {
       id: 2,
-      title: "Ecommerce",
+      title: "Instagram-Clone",
       description: "Reactjs, HTML, CSS, Javascript",
       btnText: "GitHub",
-      url: "https://github.com/yash2500/Reactjs-Projects/tree/master/Dynamic%20CSS%20Generator",
+      url: "https://github.com/yashchhatrala25/insta-clone",
     },
     {
       id: 3,
-      title: "CRUD",
-      description: "Reactjs, HTML, CSS, Javascript",
+      title: "Python for DataScience",
+      description: "Python, DataStructure",
       btnText: "GitHub",
-      url: "https://github.com/yash2500/Reactjs-Projects/tree/master/CRUD%20Using%20React-Redux",
-    },
-    {
-      id: 1,
-      title: "Todo List",
-      description: "Reactjs, HTML, CSS, Javascript",
-      btnText: "GitHub",
-      url: "https://github.com/yash2500/Reactjs-Projects/tree/master/Quiz-App",
-    },
-    {
-      id: 2,
-      title: "Ecommerce",
-      description: "Reactjs, HTML, CSS, Javascript",
-      btnText: "GitHub",
-      url: "https://github.com/yash2500/Reactjs-Projects/tree/master/Dynamic%20CSS%20Generator",
-    },
-    {
-      id: 3,
-      title: "CRUD",
-      description: "Reactjs, HTML, CSS, Javascript",
-      btnText: "GitHub",
-      url: "https://github.com/yash2500/Reactjs-Projects/tree/master/CRUD%20Using%20React-Redux",
+      url: "https://github.com/yashchhatrala25/python-data-science",
     },
   ];
 

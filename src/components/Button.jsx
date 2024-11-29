@@ -2,10 +2,10 @@ import React from 'react'
 
 const Button = (props) => {
   function handleClick() {
-    const pdfUrl = "../assets/sample.pdf";
+    const pdfUrl = "../assets/Yash_Chhatrala_CV.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "document.pdf"; // specify the filename
+        link.download = "Yash_Chhatrala_CV.pdf"; // specify the filename
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
