@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = (props) => {
   function handleClick() {
-    const pdfUrl = "../assets/Yash_Chhatrala_CV.pdf";
+    const pdfUrl = "https://drive.google.com/file/d/1FXlhzRaGFHtRluygRUxF25qfTC30KzzP/view?usp=drive_link";
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.download = "Yash_Chhatrala_CV.pdf"; // specify the filename
