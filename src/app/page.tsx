@@ -19,7 +19,7 @@ export default function Home() {
       <AboutSection />
       <Experience />
       <MyApproach />
-      <ProjectsSection />
+      {/* <ProjectsSection /> */}
       <TapeSection />
       {/* <TestimonialsSection/> */}
       <Faqs />
